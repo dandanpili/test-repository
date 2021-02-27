@@ -1,0 +1,4 @@
+将本地仓库上传到github并且相关联，与testgit.git仓库关联
+git remote add origin https://github.com/dandanpili/testgit.git
+git branch -M master
+git push -u origin master
