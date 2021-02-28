@@ -1,4 +1,9 @@
 将本地仓库上传到github并且相关联，与testgit.git仓库关联
+先在本地将要上传的文件夹内唤出gitBash
+git init
+git add .
+git commit -m '第一次提交'
+
 git remote add origin https://github.com/dandanpili/testgit.git
 git branch -M master
 git push -u origin master
